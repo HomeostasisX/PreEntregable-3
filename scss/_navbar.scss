@@ -1,0 +1,39 @@
+.Navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #010318;
+    color: rgb(255, 250, 250);
+    padding: 10px 20px;
+    transition: top 0.3s;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    font-family: 'Nabla', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.OfertasI{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+.col{
+  display: flex;
+  margin-left: 9.5%;
+  margin-top: 6%;
+}
+
+.card {
+  width: auto; 
+  height: auto; 
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #111a81;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px; 
+}
+
+.ofertai img {
+  max-width: 100%;
+  border: 0.2rem solid black;
+  border-radius: 2rem;
+}
+
+.ofertai p {
+  margin-top: 20rem;
+}

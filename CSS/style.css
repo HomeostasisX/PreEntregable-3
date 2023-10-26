@@ -1,0 +1,154 @@
+/* Index + Navbar + Footer*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #010318;
+    color: rgb(255, 250, 250);
+    padding: 10px 20px;
+    transition: top 0.3s;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    font-family: 'Nabla', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.Derechos-de-autor{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #010318;
+  color: #fff;
+  padding: 1%;
+}
+
+/* Ofertas Index */
+
+.OfertasI{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+.col{
+  display: flex;
+  margin-left: 9.5%;
+  margin-top: 6%;
+}
+
+.card {
+  width: auto; 
+  height: auto; 
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #111a81;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px; 
+}
+
+/* Apple Lanzamientos */
+
+.LanzamientosA {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+/* Apple Ofertas */
+
+.OfertasA {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+
+/* Samsung Lanzamientos */
+
+.LanzamientosSM {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+/* Samsung Ofertas */
+
+.OfertasSM {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+/* Xiaomi Lanzamientos */
+
+.LanzamientosX {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}
+
+/* Xiaomi Ofertas */
+
+.OfertasX {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif
+}

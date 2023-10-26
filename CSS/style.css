@@ -98,4 +98,20 @@ body {
   padding: 0;
 }
 
+.LanzamientosA {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.OfertasA {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 51rem;
+  text-align: auto;
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */

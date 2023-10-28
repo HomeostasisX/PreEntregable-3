@@ -1,28 +1,31 @@
-.OfertasI{
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 51rem;
-  text-align: auto;
-  font-family: 'Nabla', Arial, Helvetica, sans-serif
+.OfertasI {
+  position: relative;
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: 'Nabla', Arial, Helvetica, sans-serif;
 }
 
-.col{
+.col {
   display: flex;
-  margin-left: 9.5%;
-  margin-top: 6%;
-}
-
-.card {
-  width: auto; 
-  height: auto; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%; /* Establece un ancho máximo del 90% del contenedor padre */
 }
 
 .card-img-top {
-  object-fit: cover;
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.card {
+  width: 100%; /* Espacio entre las tarjetas */
+  height: auto;
+  margin: 1%; /* Añade margen entre las tarjetas */
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 1rem;
   color: #111a81;
   text-align: center;
   padding: 0;
@@ -30,15 +33,15 @@
 }
 
 .card-text {
-  font-size: 14px; 
+  font-size: 0.875rem;
+  text-align: center;
 }
 
 .ofertai img {
   max-width: 100%;
-  border: 0.2rem solid black;
-  border-radius: 2rem;
+  object-fit: cover;
 }
 
 .ofertai p {
-  margin-top: 20rem;
+  margin-top: 5rem;
 }

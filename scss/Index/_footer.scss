@@ -1,8 +1,16 @@
-.Derechos-de-autor{
+/* Estilos base para los derechos de autor */
+.Derechos-de-autor {
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: #010318;
+  background-image: linear-gradient(to left, #010318, rgb(0, 183, 255));
   color: #fff;
   padding: 1%;
+
+  /* Estilos para .Derechos-de-autor en resoluciones menores a 360x640 píxeles */
+  @media (max-width: 360px) {
+      position: relative; /* Cambiar a posición relativa para que fluya con el contenido */
+      text-align: center; /* Alinear el texto al centro en resoluciones más pequeñas */
+      padding: 1rem; /* Ajusta el relleno en resoluciones más pequeñas */
+  }
 }

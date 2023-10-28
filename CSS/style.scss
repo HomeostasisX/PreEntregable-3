@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* Estilos base para los derechos de autor */
+.Derechos-de-autor {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to left, #010318, rgb(0, 183, 255));
+  color: #fff;
+  padding: 1%;
+  /* Estilos para .Derechos-de-autor en resoluciones menores a 360x640 píxeles */
+}
+@media (max-width: 360px) {
+  .Derechos-de-autor {
+    position: relative; /* Cambiar a posición relativa para que fluya con el contenido */
+    text-align: center; /* Alinear el texto al centro en resoluciones más pequeñas */
+    padding: 1rem; /* Ajusta el relleno en resoluciones más pequeñas */
+  }
+}
+
+.OfertasI {
+  position: relative;
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+.OfertasI .col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%; /* Establece un ancho máximo del 90% del contenedor padre */
+}
+.OfertasI .card-img-top {
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+.OfertasI .card {
+  width: 100%; /* Espacio entre las tarjetas */
+  height: auto;
+  margin: 1%; /* Añade margen entre las tarjetas */
+}
+.OfertasI .card .card-title {
+  font-size: 1rem;
+  color: #111a81;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.OfertasI .card .card-text {
+  font-size: 0.875rem;
+  text-align: center;
+}
+.OfertasI .ofertai img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.OfertasI .ofertai p {
+  margin-top: 5rem;
+}
+
+/* Variables para modificar la navbar */
+/* Animación de respiración al momento de poner el mouse encima de un item en la navbar */
+@keyframes coloresnavbar {
+  0% {
+    color: #010318;
+  }
+  50% {
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    color: #010318;
+  }
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, #010318, rgb(0, 183, 255));
+  color: rgb(255, 250, 250);
+  padding: 0.5rem 0.5rem; /* Ajusta el padding según tus necesidades */
+  font-family: "Pixelify Sans", cursive; /* Fuente Pixelify en cualquier resolución */
+  font-size: 1.3rem;
+  /* Estilos para la lista de navegación */
+  /* Estilos para una resolución máxima de 360x640 píxeles */
+  /* Estilos para una resolución mínima de 361x640 píxeles */
+}
+.Navbar .nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem; /* Ajusta el espacio entre elementos */
+}
+.Navbar .nav-list li {
+  display: inline;
+  margin-top: 2rem;
+}
+.Navbar .nav-list li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: 1s;
+}
+.Navbar .nav-list li a:hover {
+  font-size: 1.5rem;
+  animation: coloresnavbar 3s infinite;
+}
+@media (max-width: 360px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  .Navbar .nav-list {
+    margin-top: -1.3rem;
+  }
+  .Navbar .nav-list li {
+    display: block;
+  }
+}
+@media (min-width: 361px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    height: 3rem;
+  }
+  .Navbar .nav-list {
+    margin-top: -2.5rem;
+  }
+  .Navbar .nav-list li {
+    display: block;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.LanzamientosA {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.OfertasA {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.LanzamientosSM {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.OfertasSM {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.LanzamientosX {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+.OfertasX {
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: "Nabla", Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.scss.map */

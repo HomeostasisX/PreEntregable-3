@@ -1,0 +1,15 @@
+// animaciones de los items de la navbar.
+
+@keyframes coloresnavbar{
+    0%{
+        color: #010318;
+    }
+    
+    50%{
+        color: rgb(255, 255, 255);
+    }
+
+    100%{
+        color: #010318;
+    }
+}

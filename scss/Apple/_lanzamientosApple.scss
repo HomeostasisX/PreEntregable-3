@@ -1,7 +1,6 @@
 .LanzamientosA {
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 51rem;
-  text-align: auto;
-  font-family: 'Nabla', Arial, Helvetica, sans-serif
+  position: relative; /* Cambiado a relativo para flujo normal del documento */
+  margin-top: 0.5%;
+  text-align: center; /* Centrar el texto */
+  font-family: 'Nabla', Arial, Helvetica, sans-serif;
 }

@@ -23,45 +23,38 @@
   text-align: center; /* Centrar el texto */
   font-family: "Nabla", Arial, Helvetica, sans-serif;
 }
-
-.col {
+.OfertasI .col {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   max-width: 100%; /* Establece un ancho máximo del 90% del contenedor padre */
 }
-
-.card-img-top {
+.OfertasI .card-img-top {
   max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
   height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
 }
-
-.card {
+.OfertasI .card {
   width: 100%; /* Espacio entre las tarjetas */
   height: auto;
   margin: 1%; /* Añade margen entre las tarjetas */
 }
-
-.card-title {
+.OfertasI .card .card-title {
   font-size: 1rem;
   color: #111a81;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-
-.card-text {
+.OfertasI .card .card-text {
   font-size: 0.875rem;
   text-align: center;
 }
-
-.ofertai img {
+.OfertasI .ofertai img {
   max-width: 100%;
   object-fit: cover;
 }
-
-.ofertai p {
+.OfertasI .ofertai p {
   margin-top: 5rem;
 }
 
